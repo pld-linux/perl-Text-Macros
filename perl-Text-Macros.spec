@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Macros
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text-Macros perl module
 Summary(pl):	Modu³ perla Text-Macros
 Name:		perl-Text-Macros
 Version:	0.04
-Release:	5
-
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Text-Macros perl module.
 Modul perla Text-Macros.
 
 %prep
-%setup -q -n Text-Macros-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL

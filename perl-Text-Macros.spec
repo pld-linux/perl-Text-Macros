@@ -2,9 +2,9 @@
 Summary:	Text-Macros perl module
 Summary(pl):	Modu³ perla Text-Macros
 Name:		perl-Text-Macros
-Version:	0.02
-Release:	3
-Copyright:	GPL
+Version:	0.04
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Text/Text-Macros-%{version}.tar.gz

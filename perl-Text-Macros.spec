@@ -26,7 +26,7 @@ Text::Macros.pm - obiektowo zorientowany silnik makr tekstowych.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install

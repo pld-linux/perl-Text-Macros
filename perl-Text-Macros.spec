@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Macros
-Summary:	Text-Macros perl module
-Summary(pl):	Modu³ perla Text-Macros
+Summary:	Text::Macros perl module
+Summary(pl):	Modu³ perla Text::Macros
 Name:		perl-Text-Macros
 Version:	0.04
 Release:	6
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Text-Macros perl module.
+Text::Macros perl module.
 
 %description -l pl
-Modul perla Text-Macros.
+Modul perla Text::Macros.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

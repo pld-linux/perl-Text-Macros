@@ -1,8 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Macros
-Summary:	Text::Macros perl module
-Summary(pl):	Modu³ perla Text::Macros
+Summary:	Text::Macros.pm - an object-oriented text macro engine
 Name:		perl-Text-Macros
 Version:	0.04
 Release:	6
@@ -15,10 +14,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Text::Macros perl module.
-
-%description -l pl
-Modul perla Text::Macros.
+Text::Macros.pm - an object-oriented text macro engine
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

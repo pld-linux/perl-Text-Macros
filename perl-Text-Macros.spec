@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Text
-%define	pnam	Macros
+%define		pdir	Text
+%define		pnam	Macros
 Summary:	Text::Macros.pm - an object-oriented text macro engine
 Summary(pl):	Text::Macros.pm - obiektowo zorientowany silnik makr tekstowych
 Name:		perl-Text-Macros

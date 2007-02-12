@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Macros
 Summary:	Text::Macros.pm - an object-oriented text macro engine
-Summary(pl):	Text::Macros.pm - obiektowo zorientowany silnik makr tekstowych
+Summary(pl.UTF-8):   Text::Macros.pm - obiektowo zorientowany silnik makr tekstowych
 Name:		perl-Text-Macros
 Version:	0.04
 Release:	10
@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Text::Macros.pm - an object-oriented text macro engine.
 
-%description -l pl
+%description -l pl.UTF-8
 Text::Macros.pm - obiektowo zorientowany silnik makr tekstowych.
 
 %prep

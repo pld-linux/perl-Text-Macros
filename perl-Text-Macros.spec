@@ -9,7 +9,7 @@ Summary:	Text::Macros.pm - an object-oriented text macro engine
 Summary(pl.UTF-8):	Text::Macros.pm - obiektowo zorientowany silnik makr tekstowych
 Name:		perl-Text-Macros
 Version:	0.04
-Release:	10
+Release:	11
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl

@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Text
 %define		pnam	Macros
+%include	/usr/lib/rpm/macros.perl
 Summary:	Text::Macros.pm - an object-oriented text macro engine
 Summary(pl.UTF-8):	Text::Macros.pm - obiektowo zorientowany silnik makr tekstowych
 Name:		perl-Text-Macros
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	99ccb33872f26ec16f39e2bdb2f90115
+URL:		http://search.cpan.org/dist/Text-Macros/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch

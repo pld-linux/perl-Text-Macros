@@ -4,7 +4,6 @@
 
 %define		pdir	Text
 %define		pnam	Macros
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text::Macros.pm - an object-oriented text macro engine
 Summary(pl.UTF-8):	Text::Macros.pm - obiektowo zorientowany silnik makr tekstowych
 Name:		perl-Text-Macros
